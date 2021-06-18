@@ -1,0 +1,108 @@
+.container{
+    display: flex;
+    background-color:#EBF3F7;
+}
+.newsContainerDiv{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 20vw;
+    border:1px solid silver;
+    background-color: #FFF;
+    padding:10px;
+}
+.card3{
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    border:1px solid silver;
+    margin-top: 10px;
+    background-color: #FFF;
+    padding:10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+.reader{
+    font-weight: bold;
+}
+.card_avatar{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.contact_btn{
+    background-color: #ECA4A7;
+    border:none;
+    padding: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Form */
+
+.formDiv{
+    display: flex;
+    flex-direction: column;
+}
+.code{
+    width: 50px;
+    margin-right: 20px;
+    border-radius: 8px;
+    border:none;
+    height: 30px;
+}
+.details{
+    width: 50%;
+    border-radius: 8px;
+    height: 30px;
+    border:none;
+}
+.phone{
+    width: 40%;
+    height: 30px;
+    border-radius: 8px;
+    border:none;
+}
+.button{
+    width: 300px;
+    margin:20px;
+    border:none;
+    background-color:#5CC8A1;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 10px;
+}
+.searchIcon{
+    background-color:#FFF;
+    padding: 5px;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .profile{
+        width: 100%;
+    }
+    .newsContainerDiv{
+        width: 100%;
+    }
+}
